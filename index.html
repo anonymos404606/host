@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foams</title>
+    <style>
+    .box1{
+        background-color: rgb(233, 220, 220);
+        height: 100vh;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- foam is used to collect input from user -->
+    <div class="box1">
+        <h1>Travel Foam for trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name">
+            <br>
+            What is your phome number
+            <input type="number" placeholder="Enter your phone number">
+            <br>
+
+            <!-- for and id should be same and unique, name should be same for all the radio that operates together -->
+            <label for="number-1">
+                <input type="radio" value="Father" name="Number" id="number-1"> Father's number
+                <input type="radio" value="Mon" name="Number" id="number-1">Mom's number
+            </label>    
+            <label for="number-2">
+                <input type="radio" value="self" name="Number" id="number-2">Self number
+            </label>
+            <br>
+            <input type="checkbox" name="Number" id="Number-3" class="red blue">Do you have your own phone
+            <br>
+            <input type="date" name="data" id="id1">
+            <br>
+            <input type="search" placeholder="search">
+            <br>
+            <input type="color">
+            <br>
+            <input type="datetime-local">
+            <br>
+            <input type="file" name="" id="">
+            <br>
+            <input type="email" placeholder="for email">
+            <br>
+            <input type="hidden">
+            <br>
+            <input type="range" name="" id="">
+            <br>
+            <input type="image" placeholder="for uploading image">
+            <br>
+            <input type="password" placeholder="please enter password(4-16)" required minlength="4" maxlength="16" size="100">
+            <br>
+            <input type="tel" placeholder="enter telephome number" required>
+            <br>
+            <input type="time">
+            <br>
+            <input type="url" placeholder="enter the url">
+            <br>
+            <input type="week" placeholder="enter week">
+            <br>
+            <textarea name="Explain" id="area1" cols="30" rows="10" placeholder="why you want to join">Reason:</textarea>
+            <br>
+            <select name="Cars" id="car1">
+                <option value="No car">Select you car</option>
+                <option value="No car">no car</option>
+                <option value="Swift">Swift</option>
+                <option value="BMW">BMW</option>
+            </select>
+            <br>
+            <input type="reset">
+            <input type="submit">
+      
+    </div>
+</body>
+</html>
